@@ -18,7 +18,7 @@ if($text == '/start'){
     $reply = "Hello world!";
     $telegram->sendMessage(['chat_id' => $chat_id, 'text' => $reply]);
 }
-if($text == 'hello bot'){
+if($text == 'test'){
     $reply = "Fuck off bitch!";
     $telegram->sendMessage(['chat_id' => $chat_id, 'text' => $reply]);
 }
