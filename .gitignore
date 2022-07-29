@@ -1,7 +1,10 @@
 composer.phar
 composer.lock
+env.php
 vendor/
 build/
+vendor/
+.env
 .phpunit.result.cache
 .phpunit.cache
 .php-cs-fixer.cache
